@@ -6,7 +6,7 @@ TYPES = [
     'VideoClip'
 ]
 
-ROOT = os.path.dirname(os.path.realpath(__file__))
+ROOT = os.path.dirname(os.path.realpath(os.getcwd()))
 ASSETS = [os.path.join(ROOT, 'video_ed'), os.path.join(ROOT, 'video_yokoku'), os.path.join(ROOT, 'video_op')]
 DST = os.path.join(ROOT, 'StreamingAssets/videoVp8')
 
